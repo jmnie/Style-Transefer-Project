@@ -1,5 +1,5 @@
-proposal/*.aux
-proposal/*.bbl
-proposal/*.log
-proposal/*.out
-proposal/*.synctex.gz
+*.aux
+*.bbl
+*.log
+*.out
+*.synctex.gz
