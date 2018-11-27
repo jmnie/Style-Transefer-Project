@@ -268,5 +268,5 @@ def test_output():
 
 if __name__ == "__main__":
    #main()
-   #evaluate_test()
-   test_output()
+   evaluate_test()
+   #test_output()
