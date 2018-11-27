@@ -234,12 +234,16 @@ def evaluate_test():
     # forward
     style_model.set_target(style_image)
     output = style_model(content_image)
-    print(type(output),output.asnumpy().shape)
+    img = F.clip(output[0], 0, 255).asnumpy()
+    img = img.transpose(1, 2, 0).astype('uint8')
+    img = Image.fromarray(img)
     
-    np_array = output.asnumpy()
-    img_array = np.reshape(np_array,(np_array.shape[2],np_array.shape[3],np_array.shape[1]))
-    print(img_array.shape)
-    img = Image.fromarray(np.uint8(img_array))  
+#     print(type(output),output.asnumpy().shape)
+#     np_array = output.asnumpy()
+#     img_array = np.reshape(np_array,(np_array.shape[2],np_array.shape[3],np_array.shape[1]))
+#     print(img_array.shape)
+#     img = Image.fromarray(np.uint8(img_array))
+    
     img.show()
 
 def test_output():
