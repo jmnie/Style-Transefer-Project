@@ -234,16 +234,23 @@ def evaluate_test():
     # forward
     style_model.set_target(style_image)
     output = style_model(content_image)
-    img = F.clip(output[0], 0, 255).asnumpy()
+    
+    tensor = output[0]
+    #(b, g, r) = F.split(tensor, num_outputs=3, axis=0)
+    #tensor = F.concat(r, g, b, dim=0)
+    img = F.clip(tensor, 0, 255).asnumpy()
     img = img.transpose(1, 2, 0).astype('uint8')
     img = Image.fromarray(img)
-    
-#     print(type(output),output.asnumpy().shape)
-#     np_array = output.asnumpy()
-#     img_array = np.reshape(np_array,(np_array.shape[2],np_array.shape[3],np_array.shape[1]))
-#     print(img_array.shape)
-#     img = Image.fromarray(np.uint8(img_array))
-    
+    #print(type(output[0]),output[0].asnumpy().shape)
+    #np_array = output.asnumpy()
+    #img_array = np.reshape(np_array,(np_array.shape[2],np_array.shape[3],np_array.shape[1]))
+    #print(img_array.shape)
+    #img = Image.fromarray(np.uint8(img_array))  
+
+    original = Image.open(content_image_path)
+    style = Image.open(style_image_path)
+    style.show()
+    original.show()
     img.show()
 
 def test_output():
