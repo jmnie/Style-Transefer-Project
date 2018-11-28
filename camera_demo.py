@@ -94,6 +94,10 @@ def run_demo(eval_args):
 if __name__ == '__main__':
     ## change the size here to increase the quality
     size = 50
+
+    # change the style image
     style_image = 'images/styles/starry_night.jpg'
-    eval_args = camero_args(style_image,size=size)
+
+    # if you have gpu, set cuda = 1
+    eval_args = camero_args(style_image,size=size,cuda=0)
     run_demo(eval_args)
