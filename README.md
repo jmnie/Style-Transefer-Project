@@ -10,10 +10,10 @@ This page https://mxnet.apache.org/install/ illustrated how to install mxnet.
 pip install python-opencv
 
 ## Data Source
-1. We use this data to train our model:＜/br＞
+1. We use this data to train our model:        
     http://msvocds.blob.core.windows.net/coco2014/train2014.zip
 
-2. This is the dataset for final visulalization:＜/br＞
+2. This is the dataset for final visulalization:        
     http://msvocds.blob.core.windows.net/coco2014/val2014.zip
 
 ## Project Website
