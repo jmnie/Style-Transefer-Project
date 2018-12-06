@@ -7,7 +7,7 @@ This project is an implementation of Style Transfer using CNN.
 1. mxnet 
 * This page https://mxnet.apache.org/install/ illustrated how to install mxnet.
 2. OpenCV (Python) 
-pip install python-opencv
+* pip install python-opencv
 
 ## Data Source
 1. We use this data to train our model:        
