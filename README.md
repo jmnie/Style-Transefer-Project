@@ -18,3 +18,6 @@ pip install python-opencv
 
 ## Project Website
 https://jmnie.github.io/2018/11/29/ml_project/
+
+## Video Demo 
+https://www.youtube.com/watch?v=5WqvDl81Cj0
