@@ -5,7 +5,7 @@ This project is an implementation of Style Transfer using CNN.
 
 ## Environment Dependencies
 1. mxnet 
-This page https://mxnet.apache.org/install/ illustrated how to install mxnet.
+* This page https://mxnet.apache.org/install/ illustrated how to install mxnet.
 2. OpenCV (Python) 
 pip install python-opencv
 
