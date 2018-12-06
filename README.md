@@ -3,7 +3,7 @@ CS 539 Machine Learning Project
 
 This project is an implementation of Style Transfer using CNN.
 
-![](/images/)
+![](/images/uol_output.jpg)
 
 
 ## Environment Dependencies
