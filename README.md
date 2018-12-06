@@ -3,6 +3,9 @@ CS 539 Machine Learning Project
 
 This project is an implementation of Style Transfer using CNN.
 
+![](/images/)
+
+
 ## Environment Dependencies
 1. mxnet 
 * This page https://mxnet.apache.org/install/ illustrated how to install mxnet.
