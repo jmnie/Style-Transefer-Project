@@ -22,3 +22,5 @@ https://jmnie.github.io/2018/12/06/ml_project/
 
 ## Video Demo 
 https://www.youtube.com/watch?v=5WqvDl81Cj0
+
+![](/images/demo.gif)
