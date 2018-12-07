@@ -27,3 +27,6 @@ https://jmnie.github.io/2018/12/06/ml_project/
 https://www.youtube.com/watch?v=5WqvDl81Cj0
 
 ![](/images/demo.gif)
+
+## Presentation Slides
+https://prezi.com/kxdwilsggigw/machine_learning_pre/?utm_campaign=share&utm_medium=copy
