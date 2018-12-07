@@ -13,10 +13,8 @@ This project is an implementation of Style Transfer using CNN.
 * pip install python-opencv
 
 ## Data Source
-1. We use this data to train our model:        
+1. We use following datasets to train our model(Content):        
     http://msvocds.blob.core.windows.net/coco2014/train2014.zip
-
-2. This is the dataset for final visulalization:        
     http://msvocds.blob.core.windows.net/coco2014/val2014.zip
 
 ## Project Website
