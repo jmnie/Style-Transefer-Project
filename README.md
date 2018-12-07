@@ -16,6 +16,8 @@ This project is an implementation of Style Transfer using CNN.
 1. We use following datasets to train our model(Content):        
     http://msvocds.blob.core.windows.net/coco2014/train2014.zip
     http://msvocds.blob.core.windows.net/coco2014/val2014.zip
+2. Sytle Photo:         
+    It contains 22 oil painting images.
 
 ## Project Website
 https://jmnie.github.io/
