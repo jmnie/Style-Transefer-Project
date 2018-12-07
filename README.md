@@ -26,6 +26,7 @@ https://jmnie.github.io/2018/12/06/ml_project/
 ## Video Demo 
 https://www.youtube.com/watch?v=5WqvDl81Cj0
 
+Or reference this gif:
 ![](/images/demo.gif)
 
 ## Presentation Slides
