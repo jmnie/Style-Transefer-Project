@@ -93,7 +93,7 @@ def run_demo(eval_args):
 
 if __name__ == '__main__':
     ## change the size here to increase the quality
-    size = 50
+    size = 200
 
     # change the style image
     style_image = 'images/styles/starry_night.jpg'
