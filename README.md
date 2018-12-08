@@ -1,5 +1,5 @@
 # CS539-ML-18F-Project
-CS 539 Machine Learning Project 
+WPI CS 539 Machine Learning Project 
 
 This project is an implementation of Style Transfer using CNN.
 
