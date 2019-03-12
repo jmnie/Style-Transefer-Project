@@ -20,8 +20,7 @@ This project is an implementation of Style Transfer using CNN.
     It contains 22 oil painting images.
 
 ## Project Website
-https://jmnie.github.io/
-https://jmnie.github.io/2018/12/06/ml_project/
+https://jmnie.github.io/2019/03/09/ml_project/
 
 ## Video Demo 
 https://www.youtube.com/watch?v=5WqvDl81Cj0
